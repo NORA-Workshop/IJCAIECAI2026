@@ -83,7 +83,7 @@ html,body{
 }
 
 .navbar-brand {
-    color: #1308a8 !important;
+    color: #0304FF !important;
     font-weight: bold !important;
     font-size: 1.5rem !important;
     padding: 0px 16px!important;
@@ -139,7 +139,7 @@ html,body{
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-    color: #1308a8 !important;
+    color: #0304FF !important;
     transform: translateY(0) !important;
 }
 
@@ -151,7 +151,7 @@ html,body{
     bottom: -2px;
     width: 100%;
     height: 2px;
-    background-color: #1308a8 !important;
+    background-color: #0304FF !important;
 }
 
 .nav-link {
@@ -292,10 +292,10 @@ html,body{
 
 
 .btn-custom {
-    background-color: #1308a8!important;
+    background-color: #0304FF!important;
     color: white !important;
     padding: 10px 20px !important;
-    border: 1px solid #1308a8 !important;
+    border: 1px solid #0304FF !important;
     border-radius: 8px !important;
     font-size: 1rem !important;
     text-decoration: none !important;
@@ -307,7 +307,7 @@ html,body{
 }
 
 .btn-custom:hover {
-    background-color: #1308a8 !important;
+    background-color: #0304FF !important;
 }
 
 .btn-wrapper {
@@ -398,14 +398,14 @@ html,body{
 
 .card-icon {
     font-size: 24px;
-    color: #1308a8;
+    color: #0304FF;
 }
 
 .card-icon-wrapper {
     width: 48px;
     height: 48px;
     background-color: #F8EEE5;
-    border: 1px solid #1308a8;
+    border: 1px solid #0304FF;
     border-radius: 50%; 
     display: flex;
     justify-content: center;
@@ -460,7 +460,7 @@ html,body{
     border-radius: 4px;
     height: 8px;
     width: 64px;
-    background-color: #1308a8;
+    background-color: #0304FF;
     border: none;
     margin-top: 1px;
     margin-bottom: 1px;
@@ -489,7 +489,7 @@ html,body{
 
 .single-feature h4 {
     font-size: 20px;
-    color: #1308a8;
+    color: #0304FF;
     margin-bottom: 16px;
     font-weight: 600;
 }
@@ -639,12 +639,12 @@ html,body{
 }
 
 .single-speaker:hover h6, .single-organizer:hover h6, .single-student:hover h6{
-    color: #1308a8;
+    color: #0304FF;
     text-decoration: underline;
 }
 
 .single-speaker:hover img, .single-organizer:hover img {
-    box-shadow: rgba(219, 8, 168, 0.75) 6px 6px;
+    box-shadow: rgba(3, 4, 255, 0.75) 6px 6px;
 }
 
 
@@ -759,7 +759,7 @@ html,body{
 }
 
 .hm-foot-icon ul li a:hover {
-    color: #1308a8;
+    color: #0304FF;
 }
 
 .footer-copyright h5 {
@@ -803,8 +803,8 @@ html,body{
     font-size: 20px;
     cursor: pointer;
     color: #fff;
-    background:#1308a8;
-	border:1px solid #1308a8;
+    background:#0304FF;
+	border:1px solid #0304FF;
 	border-radius:50%;
 	-webkit-transition: .5s; 
 	-moz-transition:.5s; 
@@ -815,8 +815,8 @@ html,body{
 }
 #scroll-Top  .return-to-top:hover {
     background:#fff;
-    color: #1308a8;
-	border:1px solid #1308a8;
+    color: #0304FF;
+	border:1px solid #0304FF;
 }
 
 #scroll-Top  .return-to-top i{
@@ -842,7 +842,7 @@ html,body{
      Fonts and Space
 --------------------------------------*/
 .link {
-    color: #1308a8;
+    color: #0304FF;
     text-decoration: underline;
     font-weight: 500;
 }
@@ -866,7 +866,7 @@ html,body{
 }
 
 .link2:hover {
-    color: #1308a8;
+    color: #0304FF;
     text-decoration: underline;
     font-weight: 400;
 }
@@ -917,7 +917,7 @@ ul li {
 }
 
 .span-highlight {
-    color: #1308a8;
+    color: #0304FF;
     text-transform: none;
 }
 
