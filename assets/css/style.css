@@ -41,10 +41,10 @@ img{border:none;max-width:100%; height:auto;}
 ul{
 	padding: 0;
     margin: 0 auto;
-    list-style: none;
+    list-style: disc;
 }
 ul li {
-	list-style: none;
+	list-style: disc;
 	
 }
 select,input,textarea,button{box-shadow:none;outline:0!important;}
