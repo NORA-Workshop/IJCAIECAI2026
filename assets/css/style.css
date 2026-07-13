@@ -788,6 +788,14 @@ html,body{
     color: #888ea5;
     text-transform: capitalize;
 }
+/* Forces all map icons to have identical dimensions */
+.map-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain; /* Prevents icons from stretching or distorting */
+    display: inline-block;
+    vertical-align: middle;
+}
 /*===============================
     Scroll Top
 ===============================*/
