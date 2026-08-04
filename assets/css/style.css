@@ -564,6 +564,73 @@ html,body{
     background-color: #FDE2E4 !important; /* Pale Rose */
 }
 
+/* 9 Pastel colors palette */
+.table-pastel-pink {
+    background-color: #ffd1dc !important; /* Pastel Pink */
+}
+
+.table-soft-yellow {
+    background-color: #f6cf71 !important; /* Soft Yellow */
+}
+
+.table-peach {
+    background-color: #ffe5b4 !important; /* Peach */
+}
+
+.table-mint-green {
+    background-color: #aaf0d1 !important; /* Mint Green */
+}
+
+.table-baby-blue {
+    background-color: #a7c7e7 !important; /* Baby Blue */
+}
+
+.table-lavender {
+    background-color: #E3E4FA !important; /* Lavender */
+}
+
+.table-coral {
+    background-color: #F89C74 !important; /* Coral */
+}
+
+.table-lilac {
+    background-color: #DCB0F2 !important; /* Lilac */
+}
+
+.table-lime-ice {
+    background-color: #D3DB7F !important; /* Lime Ice */
+}
+
+/* 9 Softer Pastel colors Palette */
+.table-blush-pink {
+    background-color: #FFF0F3 !important; /* Blush Pink */
+}
+.table-pale-butter {
+    background-color: #FFF9E6 !important; /* Pale Butter */
+}
+.table-creamy-peach {
+    background-color: #FFF0E0 !important; /* Creamy Peach */
+}
+.table-soft-mint {
+    background-color: #E8F8F1 !important; /* Soft Mint */
+}
+.table-powder-blue {
+    background-color: #E6F0FA !important; /* Powder Blue */
+}
+.table-whisper-purple {
+    background-color: #F3EFFF !important; /* Whisper Purple */
+}
+.table-muted-coral {
+    background-color: #FFEAEA !important; /* Muted Coral */
+}
+.table-mist-lilac {
+    background-color: #FAE6FA !important; /* Mist Lilac */
+}
+.table-sage-tint {
+    background-color: #F0F4E8 !important; /* Sage Tint */
+}
+
+
 
 .guideline-item {
     display: flex;
