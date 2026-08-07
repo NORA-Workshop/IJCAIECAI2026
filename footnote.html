@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table with Footnotes</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      color: #333;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 2rem;
+      font-size: 0.95rem;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: #f8f9fa;
+      font-weight: 600;
+    }
+
+    tr:nth-child(even) {
+      background-color: #fafafa;
+    }
+
+    /* Footnote marker in table */
+    .fn-marker {
+      color: #2563eb;
+      text-decoration: none;
+      font-size: 0.75em;
+      vertical-align: super;
+      font-weight: 600;
+      padding: 0 2px;
+      cursor: pointer;
+    }
+
+    .fn-marker:hover {
+      color: #1e40af;
+      text-decoration: underline;
+    }
+
+    /* Footnotes section */
+    .footnotes {
+      border-top: 2px solid #e5e7eb;
+      padding-top: 1.5rem;
+      font-size: 0.9rem;
+      color: #4b5563;
+    }
+
+    .footnotes h3 {
+      margin-top: 0;
+      font-size: 1.1rem;
+      color: #111;
+    }
+
+    .footnote {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+      scroll-margin-top: 20px; /* Offset for smooth scroll */
+    }
+
+    .footnote-number {
+      flex-shrink: 0;
+      font-weight: 600;
+      color: #2563eb;
+    }
+
+    .footnote-number a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .footnote-number a:hover {
+      text-decoration: underline;
+    }
+
+    .footnote-text {
+      flex: 1;
+    }
+
+    /* Highlight target when jumped to */
+    .footnote:target {
+      background-color: #eff6ff;
+      padding: 4px 8px;
+      margin-left: -8px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Availability</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Widget Pro</td>
+        <td>$49.99</td>
+        <td>In stock<sup><a href="#fn1" class="fn-marker" id="ref1">1</a></sup></td>
+      </tr>
+      <tr>
+        <td>Gadget Lite</td>
+        <td>$29.99<sup><a href="#fn2" class="fn-marker" id="ref2">2</a></sup></td>
+        <td>Backorder</td>
+      </tr>
+      <tr>
+        <td>Deluxe Bundle</td>
+        <td>$99.99</td>
+        <td>Limited<sup><a href="#fn3" class="fn-marker" id="ref3">3</a></sup></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="footnotes">
+    <h3>Notes</h3>
+    
+    <div class="footnote" id="fn1">
+      <span class="footnote-number"><a href="#ref1">1</a></span>
+      <span class="footnote-text">Ships within 24 hours from domestic warehouses.</span>
+    </div>
+    
+    <div class="footnote" id="fn2">
+      <span class="footnote-number"><a href="#ref2">2</a></span>
+      <span class="footnote-text">Introductory pricing valid until end of quarter.</span>
+    </div>
+    
+    <div class="footnote" id="fn3">
+      <span class="footnote-number"><a href="#ref3">3</a></span>
+      <span class="footnote-text">Only 5 units remaining at this location.</span>
+    </div>
+  </div>
+
+</body>
+</html>
